@@ -61,7 +61,7 @@ class Extrator_url():
         else:
             valor = self.url[indice_valor:indicedoe]
         return valor
-url_youtube = Extrator_url("http://www.bytebank.com.br/cambio")
+url_youtube = Extrator_url("bytebank.com/cambio?quantidade=100&moedaDestino=Dolar")
 print(url_youtube.__len__())
 
 '''
